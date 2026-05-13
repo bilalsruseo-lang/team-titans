@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TECHATON — Creative Digital Agency</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
@@ -45,17 +43,19 @@
     <!-- Animated Gradient Orb -->
     <div class="orb" id="orb"></div>
 
-    <!-- Hero Texts around orb -->
+    <!-- Hero Texts: half inside orb, half outside — all around the orb center -->
     <div class="hero-text hero-text--tl" id="heroTL">
       <span>A Different</span>
       <span class="italic-text">Style</span>
     </div>
-    <div class="hero-text hero-text--bl" id="heroBL">
+    <div class="hero-text hero-text--tr" id="heroTR">
       <span>Approach</span>
       <span class="italic-text">To</span>
     </div>
-    <div class="hero-text hero-text--br" id="heroBR">
+    <div class="hero-text hero-text--bl" id="heroBL">
       <span>Creative</span>
+    </div>
+    <div class="hero-text hero-text--br" id="heroBR">
       <span class="italic-text">Designing</span>
     </div>
 
@@ -93,20 +93,6 @@
         </div>
         <h3 class="section-label">About Us</h3>
       </div>
-      <div class="about-right reveal-right">
-        <div class="about-stat">
-          <span class="stat-num">08+</span>
-          <span class="stat-label">Years in Motion</span>
-        </div>
-        <div class="about-stat">
-          <span class="stat-num">340+</span>
-          <span class="stat-label">Projects Delivered</span>
-        </div>
-        <div class="about-stat">
-          <span class="stat-num">96%</span>
-          <span class="stat-label">Client Retention</span>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -119,39 +105,34 @@
       </div>
       <div class="trusted-right reveal-fade">
         <div class="logo-grid" id="logoGrid">
-          <!-- Row 1 -->
+
+          <!-- Row 1: 5 cells -->
           <div class="logo-row">
-            <div class="logo-cell"><div class="logo-content"><i class="fab fa-slack"></i><span>Slack</span></div></div>
-            <div class="logo-connector">+</div>
-            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon cu">CU</span><span>ClickUp</span></div></div>
-            <div class="logo-connector">+</div>
-            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon ja">J.</span><span>Jasper</span></div></div>
-            <div class="logo-connector">+</div>
-            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon no">N</span><span>Notion</span></div></div>
-            <div class="logo-connector">+</div>
-            <div class="logo-cell"><div class="logo-content"><i class="fab fa-figma"></i><span>Figma</span></div></div>
+            <div class="logo-cell"><div class="logo-content"><i class="fab fa-slack"></i><span>Slack</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon cu">CU</span><span>ClickUp</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon ja">J.</span><span>Jasper</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon no">N</span><span>Notion</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell"><div class="logo-content"><i class="fab fa-figma"></i><span>Figma</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
           </div>
-          <!-- Row 2 -->
-          <div class="logo-row-connector"><span>+</span><span>+</span><span>+</span><span>+</span><span>+</span></div>
+
+          <!-- Row 2: 5 cells -->
           <div class="logo-row">
-            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon st">S</span><span>Stripe</span></div></div>
-            <div class="logo-connector">+</div>
-            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon li">L</span><span>Linear</span></div></div>
-            <div class="logo-connector">+</div>
-            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon fr">Fr</span><span>Framer</span></div></div>
-            <div class="logo-connector">+</div>
-            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon oa">◎</span><span>OpenAI</span></div></div>
-            <div class="logo-connector">+</div>
-            <div class="logo-cell"><div class="logo-content"><i class="fab fa-discord"></i><span>Discord</span></div></div>
+            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon st">S</span><span>Stripe</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon li">L</span><span>Linear</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon fr">Fr</span><span>Framer</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon oa">◎</span><span>OpenAI</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell"><div class="logo-content"><i class="fab fa-discord"></i><span>Discord</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
           </div>
-          <!-- Row 3 connector -->
-          <div class="logo-row-connector short"><span>+</span><span>+</span></div>
-          <!-- Row 3 -->
-          <div class="logo-row">
-            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon ve">V</span><span>Vercel</span></div></div>
-            <div class="logo-connector">+</div>
-            <div class="logo-cell"><div class="logo-content"><i class="fab fa-github"></i><span>GitHub</span></div></div>
+
+          <!-- Row 3: only first 2 cells, then 3 empty spacers -->
+          <div class="logo-row logo-row--partial">
+            <div class="logo-cell"><div class="logo-content"><span class="logo-text-icon ve">V</span><span>Vercel</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell"><div class="logo-content"><i class="fab fa-github"></i><span>GitHub</span></div><span class="corner-plus tl">+</span><span class="corner-plus tr">+</span><span class="corner-plus bl">+</span><span class="corner-plus br">+</span></div>
+            <div class="logo-cell logo-cell--empty"></div>
+            <div class="logo-cell logo-cell--empty"></div>
+            <div class="logo-cell logo-cell--empty"></div>
           </div>
+
         </div>
       </div>
     </div>
@@ -169,45 +150,65 @@
           <div class="work-card reveal-card" data-index="0">
             <div class="card-inner">
               <div class="card-bg" style="--card-hue: 260deg;"></div>
-              <div class="card-hover-image"><div class="card-object helmet"></div></div>
+              <div class="card-image-always">
+                <div class="card-object helmet"></div>
+              </div>
               <div class="card-info">
                 <span class="card-num">001</span>
                 <h3 class="card-title">Neon<br>Horizon</h3>
+                <div class="card-hover-desc">
+                  <p>Immersive brand identity for next-gen gaming platform with spatial UI.</p>
+                  <p>Motion-driven visual language across all digital touchpoints.</p>
+                </div>
               </div>
-              <div class="card-plus">+</div>
             </div>
           </div>
           <div class="work-card reveal-card" data-index="1">
             <div class="card-inner">
               <div class="card-bg" style="--card-hue: 320deg;"></div>
-              <div class="card-hover-image"><div class="card-object sphere"></div></div>
+              <div class="card-image-always">
+                <div class="card-object sphere"></div>
+              </div>
               <div class="card-info">
                 <span class="card-num">002</span>
                 <h3 class="card-title">Pulse<br>Studio</h3>
+                <div class="card-hover-desc">
+                  <p>Creative agency rebrand with kinetic typography and bold gradients.</p>
+                  <p>Full digital presence built around emotional motion design.</p>
+                </div>
               </div>
-              <div class="card-plus">+</div>
             </div>
           </div>
           <div class="work-card reveal-card" data-index="2">
             <div class="card-inner">
               <div class="card-bg" style="--card-hue: 190deg;"></div>
-              <div class="card-hover-image"><div class="card-object crystal"></div></div>
+              <div class="card-image-always">
+                <div class="card-object crystal"></div>
+              </div>
               <div class="card-info">
                 <span class="card-num">003</span>
                 <h3 class="card-title">Ether<br>Labs</h3>
+                <div class="card-hover-desc">
+                  <p>Web3 product design with glass-morphic UI and ambient interactivity.</p>
+                  <p>Blockchain interface made intuitive for non-technical users.</p>
+                </div>
               </div>
-              <div class="card-plus">+</div>
             </div>
           </div>
           <div class="work-card reveal-card" data-index="3">
             <div class="card-inner">
               <div class="card-bg" style="--card-hue: 30deg;"></div>
-              <div class="card-hover-image"><div class="card-object torus"></div></div>
+              <div class="card-image-always">
+                <div class="card-object torus"></div>
+              </div>
               <div class="card-info">
                 <span class="card-num">004</span>
                 <h3 class="card-title">Drift<br>Wave</h3>
+                <div class="card-hover-desc">
+                  <p>Sonic branding and visual identity for a streaming music platform.</p>
+                  <p>Waveform-inspired design system with dynamic color shifts.</p>
+                </div>
               </div>
-              <div class="card-plus">+</div>
             </div>
           </div>
         </div>
@@ -217,56 +218,81 @@
           <div class="work-card work-card--tall reveal-card" data-index="4">
             <div class="card-inner">
               <div class="card-bg" style="--card-hue: 160deg;"></div>
-              <div class="card-hover-image"><div class="card-object cone"></div></div>
+              <div class="card-image-always">
+                <div class="card-object cone"></div>
+              </div>
               <div class="card-info">
                 <span class="card-num">005</span>
                 <h3 class="card-title">Vortex<br>Design</h3>
+                <div class="card-hover-desc">
+                  <p>Architectural visualization studio with cinematic scroll storytelling.</p>
+                  <p>3D renders integrated with editorial-style typography.</p>
+                </div>
               </div>
-              <div class="card-plus">+</div>
             </div>
           </div>
           <div class="work-card reveal-card" data-index="5">
             <div class="card-inner">
               <div class="card-bg" style="--card-hue: 220deg;"></div>
-              <div class="card-hover-image"><div class="card-object diamond"></div></div>
+              <div class="card-image-always">
+                <div class="card-object diamond"></div>
+              </div>
               <div class="card-info">
                 <span class="card-num">006</span>
                 <h3 class="card-title">Orbit<br>Systems</h3>
+                <div class="card-hover-desc">
+                  <p>SaaS dashboard redesign focused on data clarity and visual hierarchy.</p>
+                  <p>Reduced cognitive load by 60% through motion and spatial design.</p>
+                </div>
               </div>
-              <div class="card-plus">+</div>
             </div>
           </div>
           <div class="work-card reveal-card" data-index="6">
             <div class="card-inner">
               <div class="card-bg" style="--card-hue: 50deg;"></div>
-              <div class="card-hover-image"><div class="card-object ring"></div></div>
+              <div class="card-image-always">
+                <div class="card-object ring"></div>
+              </div>
               <div class="card-info">
                 <span class="card-num">007</span>
                 <h3 class="card-title">Nova<br>Collective</h3>
+                <div class="card-hover-desc">
+                  <p>Creative collective website with generative art backgrounds.</p>
+                  <p>Community-driven brand identity with collaborative design tools.</p>
+                </div>
               </div>
-              <div class="card-plus">+</div>
             </div>
           </div>
           <div class="work-card reveal-card" data-index="7">
             <div class="card-inner">
               <div class="card-bg" style="--card-hue: 290deg;"></div>
-              <div class="card-hover-image"><div class="card-object cube"></div></div>
+              <div class="card-image-always">
+                <div class="card-object cube"></div>
+              </div>
               <div class="card-info">
                 <span class="card-num">008</span>
                 <h3 class="card-title">Pixel<br>Phantom</h3>
+                <div class="card-hover-desc">
+                  <p>Retro-futurist pixel art studio with modern interaction patterns.</p>
+                  <p>Custom game UI kit used across 12 indie game launches.</p>
+                </div>
               </div>
-              <div class="card-plus">+</div>
             </div>
           </div>
           <div class="work-card reveal-card" data-index="8">
             <div class="card-inner">
               <div class="card-bg" style="--card-hue: 0deg;"></div>
-              <div class="card-hover-image"><div class="card-object arch"></div></div>
+              <div class="card-image-always">
+                <div class="card-object arch"></div>
+              </div>
               <div class="card-info">
                 <span class="card-num">009</span>
                 <h3 class="card-title">Arc<br>Future</h3>
+                <div class="card-hover-desc">
+                  <p>Fintech startup identity with trust-first design philosophy.</p>
+                  <p>Conversion-optimized landing pages with micro-animation library.</p>
+                </div>
               </div>
-              <div class="card-plus">+</div>
             </div>
           </div>
         </div>
@@ -274,11 +300,10 @@
     </div>
   </section>
 
-  <!-- ==================== SECTION 5 — RECOGNITION & AWARDS ==================== -->
+  <!-- ==================== SECTION 5 — RECOGNITION ==================== -->
   <section class="recognition" id="recognition">
     <div class="recognition-orb-wrap">
       <div class="recognition-orb" id="recognitionOrb"></div>
-      <!-- Burst cards -->
       <div class="burst-cards" id="burstCards"></div>
     </div>
 
@@ -327,7 +352,7 @@
     </div>
   </section>
 
-  <!-- ==================== SECTION 6 — GRADIENT PLUS TRANSFORMATION ==================== -->
+  <!-- ==================== SECTION 6 — PLUS TRANSFORMATION ==================== -->
   <section class="plus-section" id="plusSection">
     <div class="plus-bg" id="plusBg"></div>
     <div class="plus-center" id="plusCenter">
@@ -335,11 +360,7 @@
       <div class="plus-glow" id="plusGlow"></div>
     </div>
     <div class="plus-text-reveal" id="plusTextReveal">
-      <h2 class="plus-headline">
-        <span>We don't just build</span>
-        <span class="italic-line">websites — we craft</span>
-        <span>living experiences.</span>
-      </h2>
+      <h2 class="plus-headline">We craft living digital experiences that move people forward.</h2>
     </div>
     <div class="plus-cursor-reactive" id="plusCursorReactive"></div>
   </section>
